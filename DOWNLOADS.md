@@ -1,24 +1,35 @@
-# 下载与发行准备 / Downloads
+# 获取 Luma / Get Luma
 
-[返回项目介绍](README.md) · [English introduction](README.en.md)
+[项目首页](README.md) · [English](README.en.md) · [用户手册](docs/USER_GUIDE.zh-CN.md)
 
-**当前状态：开发中，尚未开放下载。**  
-**Current status: In development. Downloads are not available yet.**
+## 软件版本
 
-| 项目 / Item | 当前状态 / Status |
-| --- | --- |
-| macOS 安装包 / macOS installer | 尚未发布 / Not published |
-| Windows 安装包 / Windows installer | 尚未发布 / Not published |
-| 公开发行日期 / Public release date | 尚未公布 / Not announced |
-| 软件使用许可 / Software usage license | 发行前确认并公布 / To be finalized before release |
-| 发行文件与 SHA-256 / Files and SHA-256 checksums | 有正式文件后提供 / Provided with a published build |
+安装文件统一通过本仓库的 [Releases 发行记录](https://github.com/myflww/luma-companion-releases/releases) 提供。安装包上传后，本页将补充对应版本、适用平台、安装说明与校验信息；在发行记录中选择包含实际安装文件的版本。
 
-本页不提供占位下载文件、旧测试包或当前本机应用副本。暂未提供下载按钮。
+每个可下载版本应附有：
 
-This page does not offer placeholder files, old test builds, or copies of the developer’s local application. There is currently no download button.
+- 版本号、日期及适用平台与架构。
+- 安装、升级和必要的回滚说明。
+- 变更记录与该版本的使用说明。
+- 软件使用许可、隐私说明与第三方声明。
+- 文件名、文件大小与 SHA-256 校验值。
 
-后续版本的获取入口为本仓库的 [Releases 发行记录](https://github.com/myflww/luma-companion-releases/releases)。开放下载时，每个版本应同时提供：版本与日期、适用平台/架构、变更说明、对应使用许可、第三方声明、文件大小及 SHA-256。
+## 文档与资料
 
-Future versions will be listed in this repository’s [Releases](https://github.com/myflww/luma-companion-releases/releases). Each downloadable release should identify its version and date, supported platform/architecture, changes, applicable usage license, third-party notices, file size, and SHA-256 checksum.
+- [中文用户手册 PDF](docs/Luma-User-Guide.zh-CN.pdf)
+- [中文在线手册](docs/USER_GUIDE.zh-CN.md) / [English user guide](docs/USER_GUIDE.en.md)
+- [快速开始](docs/QUICKSTART.zh-CN.md) / [Quick start](docs/QUICKSTART.en.md)
+- [许可说明](LICENSING.md)
+- [媒体资料与宣传图](docs/MEDIA_KIT.md)
 
-项目交流 / Contact: [1805680363@qq.com](mailto:1805680363@qq.com)
+文档 PDF 是阅读资料。软件的安装文件、支持系统和使用许可，以对应发行记录和随包说明为准。
+
+联系：[1805680363@qq.com](mailto:1805680363@qq.com)
+
+## English
+
+Installation files are distributed through [Releases](https://github.com/myflww/luma-companion-releases/releases). Once uploaded, this page will list the version, supported platform/architecture, installation instructions, and verification information. Choose a release entry containing actual installation files.
+
+Each downloadable version should include its date and version, installation/upgrade/rollback guidance, changes, usage license, privacy information, third-party notices, file size, and SHA-256 checksum.
+
+The [Chinese PDF handbook](docs/Luma-User-Guide.zh-CN.pdf) and online guides are reading materials. Installer availability, system support, and software usage terms follow the corresponding release and its accompanying documentation.

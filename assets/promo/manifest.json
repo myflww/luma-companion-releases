@@ -1,0 +1,45 @@
+{
+  "project": "Luma Companion",
+  "date": "2026-10-25",
+  "generator": "Built-in ImageGen",
+  "artDirection": "Cute cartoon anime chibi; existing character identities; newly drawn integrated scenes",
+  "use": "Promotional illustration; not software screenshots. See ../../LICENSING.md and ../../docs/MEDIA_KIT.md.",
+  "assets": [
+    {
+      "file": "hero-ensemble.png",
+      "role": "Project introduction / six-character ensemble",
+      "characters": 6,
+      "width": 1672,
+      "height": 941,
+      "bytes": 2870791,
+      "sha256": "32116eff4f66d3c9d5fe530ccbff744a30a33eded14bb92a7a9a65dbe43b707a"
+    },
+    {
+      "file": "office-ensemble.png",
+      "role": "Shared creation scene",
+      "characters": 6,
+      "width": 1672,
+      "height": 941,
+      "bytes": 2907846,
+      "sha256": "51b8f6a3f78e4ed75c98c1619be755cddd3cf35ed8b0438cc4bcad5dc07775fe"
+    },
+    {
+      "file": "welcome-ensemble.png",
+      "role": "Portrait welcome poster",
+      "characters": 6,
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2969708,
+      "sha256": "527f128768b0077b669497febcc1d379f8d4f0070053f54011de8b96864a8920"
+    },
+    {
+      "file": "guide-ensemble.png",
+      "role": "User-guide cover",
+      "characters": 3,
+      "width": 1672,
+      "height": 941,
+      "bytes": 2781980,
+      "sha256": "6ccb26bda0d21761a53f3c88b468cccb874b1724fa9ba962a430f53d1fd6b05d"
+    }
+  ]
+}

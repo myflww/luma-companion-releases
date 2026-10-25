@@ -1,0 +1,47 @@
+name: 问题反馈 / Bug report
+description: 报告软件使用或文档问题 / Report a usage or documentation issue
+title: "[问题] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请报告你实际使用的软件版本或文档页面，并提供最少复现步骤。
+        请勿粘贴 API 密钥、密码、恢复码、验证码、私人聊天、完整工作文件或个人路径。
+        Include the version or document page. Please omit credentials and private data from this public report.
+  - type: input
+    id: version
+    attributes:
+      label: 版本或文档页面 / Version or document
+      placeholder: 软件版本，或出错文档的页面名称
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 操作系统与入口 / OS and entry point
+      placeholder: 操作系统版本，以及消息、工作台、画布或其他入口
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 最少复现步骤 / Minimal steps
+      placeholder: |
+        1. 打开哪个入口
+        2. 做了什么
+        3. 出现什么结果
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: 期望与实际结果 / Expected and actual result
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 可选的最少证据 / Optional sanitized evidence
+      description: 仅提供经过隐私处理、与问题直接相关的截图或日志。
+    validations:
+      required: false
